@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "WordPress Imported Checkbox Values",
+  "version": "1.3",
+  "description": "Right-click to copy the checkbox values of WordPress list-table rows whose Relationship column says Imported, and tick the same values in another window.",
+  "permissions": ["contextMenus", "scripting", "activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
